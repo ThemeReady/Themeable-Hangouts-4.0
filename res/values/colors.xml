@@ -645,4 +645,5 @@
     <color name="alert_dialog_hyperlink">@color/quantum_googgreen700</color>
     <color name="hangouts_primary_color">@color/quantum_googgreen500</color>
     <color name="hangouts_text_color">#ff343434</color>
+    <color name="quantum_fab_color">#ffffffff</color>
 </resources>

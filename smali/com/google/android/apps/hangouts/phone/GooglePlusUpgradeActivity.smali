@@ -326,6 +326,10 @@
     .locals 3
 
     .prologue
+    const v0, 0x7f0b022a
+
+    invoke-virtual {p0, v0}, Lcom/google/android/apps/hangouts/phone/GooglePlusUpgradeActivity;->setTheme(I)V
+
     .line 42
     invoke-super {p0, p1}, Lgwf;->onCreate(Landroid/os/Bundle;)V
 

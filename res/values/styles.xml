@@ -404,13 +404,13 @@
     <style name="ToolbarTitle" parent="@style/TextAppearance.AppCompat.Widget.ActionMode.Title">
         <item name="android:textSize">@dimen/header_text_size</item>
         <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColor">@color/quantum_white_text</item>
         <item name="android:fontFamily">sans-serif-medium</item>
     </style>
     <style name="ToolbarSubtitle" parent="@style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle">
         <item name="android:textSize">@dimen/sub_header_text_size</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColor">@color/quantum_white_text</item>
         <item name="android:background">#00000000</item>
         <item name="android:layout_marginTop">-3.0sp</item>
         <item name="android:fontFamily">sans-serif</item>
@@ -432,7 +432,7 @@
         <item name="actionModeBackground">@color/primary</item>
         <item name="selectableItemBackground">@drawable/touch_item_background</item>
         <item name="toolbarStyle">@style/Toolbar</item>
-        <item name="panelBackground">@android:color/black</item>
+        <item name="panelBackground">@color/solid_black</item>
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryDark">@color/primary_dark</item>
         <item name="colorAccent">@color/accent_dark</item>
@@ -727,7 +727,7 @@
         <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
         <item name="android:textSize">12.0sp</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColor">@color/primary_text_default_material_light</item>
         <item name="android:ellipsize">marquee</item>
         <item name="android:maxWidth">180.0dip</item>
         <item name="android:maxLines">2</item>
@@ -842,7 +842,7 @@
     <style name="Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small" parent="@style/TextAppearance.AppCompat.Menu" />
     <style name="Base.TextAppearance.AppCompat.SearchResult" parent="">
         <item name="android:textStyle">normal</item>
-        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColor">@color/primary_text_default_material_light</item>
         <item name="android:textColorHint">?android:textColorHint</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.SearchResult.Title" parent="@style/Base.TextAppearance.AppCompat.SearchResult">
@@ -850,7 +850,7 @@
     </style>
     <style name="Base.TextAppearance.AppCompat.SearchResult.Subtitle" parent="@style/Base.TextAppearance.AppCompat.SearchResult">
         <item name="android:textSize">14.0sp</item>
-        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:textColor">@color/secondary_text_default_material_light</item>
     </style>
     <style name="Base.Widget.AppCompat.AutoCompleteTextView" parent="@style/Base.V7.Widget.AppCompat.AutoCompleteTextView" />
     <style name="Base.V7.Widget.AppCompat.AutoCompleteTextView" parent="@android:style/Widget.AutoCompleteTextView">
@@ -910,7 +910,7 @@
         <item name="android:background">?editTextBackground</item>
     </style>
     <style name="Base.Widget.AppCompat.DrawerArrowToggle.Common" parent="">
-        <item name="color">?android:textColorSecondary</item>
+        <item name="color">@color/secondary_text_default_material_light</item>
         <item name="spinBars">true</item>
         <item name="topBottomBarArrowSize">11.309998dip</item>
         <item name="middleBarArrowSize">16.0dip</item>
@@ -1007,34 +1007,34 @@
     <style name="Base.AlertDialog.AppCompat.Light" parent="@style/Base.AlertDialog.AppCompat" />
     <style name="Base.TextAppearance.AppCompat" parent="@android:style/TextAppearance">
         <item name="android:textSize">@dimen/abc_text_size_body_1_material</item>
-        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColor">@color/primary_text_default_material_light</item>
         <item name="android:textColorHighlight">?android:textColorHighlight</item>
         <item name="android:textColorHint">?android:textColorHint</item>
         <item name="android:textColorLink">?android:textColorLink</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Display4" parent="@style/Base.TextAppearance.AppCompat">
         <item name="android:textSize">@dimen/abc_text_size_display_4_material</item>
-        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:textColor">@color/secondary_text_default_material_light</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Display3" parent="@style/Base.TextAppearance.AppCompat">
         <item name="android:textSize">@dimen/abc_text_size_display_3_material</item>
-        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:textColor">@color/secondary_text_default_material_light</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Display2" parent="@style/Base.TextAppearance.AppCompat">
         <item name="android:textSize">@dimen/abc_text_size_display_2_material</item>
-        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:textColor">@color/secondary_text_default_material_light</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Display1" parent="@style/Base.TextAppearance.AppCompat">
         <item name="android:textSize">@dimen/abc_text_size_display_1_material</item>
-        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:textColor">@color/secondary_text_default_material_light</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Headline" parent="@style/Base.TextAppearance.AppCompat">
         <item name="android:textSize">@dimen/abc_text_size_headline_material</item>
-        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColor">@color/primary_text_default_material_light</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Title" parent="@style/Base.TextAppearance.AppCompat">
         <item name="android:textSize">@dimen/abc_text_size_title_material</item>
-        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColor">@color/primary_text_default_material_light</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Title.Inverse" parent="@style/Base.TextAppearance.AppCompat.Title">
         <item name="android:textColor">?android:textColorPrimaryInverse</item>
@@ -1042,7 +1042,7 @@
     </style>
     <style name="Base.TextAppearance.AppCompat.Subhead" parent="@style/Base.TextAppearance.AppCompat">
         <item name="android:textSize">@dimen/abc_text_size_subhead_material</item>
-        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColor">@color/primary_text_default_material_light</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Subhead.Inverse" parent="@style/Base.TextAppearance.AppCompat.Subhead">
         <item name="android:textColor">?android:textColorSecondaryInverse</item>
@@ -1050,23 +1050,23 @@
     </style>
     <style name="Base.TextAppearance.AppCompat.Body2" parent="@style/Base.TextAppearance.AppCompat">
         <item name="android:textSize">@dimen/abc_text_size_body_2_material</item>
-        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColor">@color/primary_text_default_material_light</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Body1" parent="@style/Base.TextAppearance.AppCompat">
         <item name="android:textSize">@dimen/abc_text_size_body_1_material</item>
-        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColor">@color/primary_text_default_material_light</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Caption" parent="@style/Base.TextAppearance.AppCompat">
         <item name="android:textSize">@dimen/abc_text_size_caption_material</item>
-        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:textColor">@color/secondary_text_default_material_light</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Menu" parent="@style/Base.TextAppearance.AppCompat">
         <item name="android:textSize">@dimen/abc_text_size_menu_material</item>
-        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColor">@color/primary_text_default_material_light</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Button" parent="@style/Base.TextAppearance.AppCompat">
         <item name="android:textSize">@dimen/abc_text_size_button_material</item>
-        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColor">@color/primary_text_default_material_light</item>
         <item name="textAllCaps">true</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Inverse" parent="@style/Base.TextAppearance.AppCompat">
@@ -1075,7 +1075,7 @@
     </style>
     <style name="Base.TextAppearance.AppCompat.Large" parent="@style/Base.TextAppearance.AppCompat">
         <item name="android:textSize">@dimen/abc_text_size_large_material</item>
-        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColor">@color/primary_text_default_material_light</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Large.Inverse" parent="@style/Base.TextAppearance.AppCompat.Large">
         <item name="android:textColor">?android:textColorPrimaryInverse</item>
@@ -1083,7 +1083,7 @@
     </style>
     <style name="Base.TextAppearance.AppCompat.Medium" parent="@style/Base.TextAppearance.AppCompat">
         <item name="android:textSize">@dimen/abc_text_size_medium_material</item>
-        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:textColor">@color/secondary_text_default_material_light</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Medium.Inverse" parent="@style/Base.TextAppearance.AppCompat.Medium">
         <item name="android:textColor">?android:textColorSecondaryInverse</item>
@@ -1287,7 +1287,7 @@
         <item name="toolbarStyle">@style/Widget.AppCompat.Toolbar</item>
         <item name="toolbarNavigationButtonStyle">@style/Widget.AppCompat.Toolbar.Button.Navigation</item>
         <item name="popupMenuStyle">@style/Widget.AppCompat.PopupMenu</item>
-        <item name="editTextColor">?android:textColorPrimary</item>
+        <item name="editTextColor">@color/primary_text_default_material_light</item>
         <item name="editTextBackground">@drawable/abc_edit_text_material</item>
         <item name="textAppearanceSearchResultTitle">@style/TextAppearance.AppCompat.SearchResult.Title</item>
         <item name="textAppearanceSearchResultSubtitle">@style/TextAppearance.AppCompat.SearchResult.Subtitle</item>
@@ -1309,7 +1309,7 @@
         <item name="colorPrimary">@color/primary_material_dark</item>
         <item name="colorPrimaryDark">@color/primary_dark_material_dark</item>
         <item name="colorAccent">@color/accent_material_dark</item>
-        <item name="colorControlNormal">?android:textColorSecondary</item>
+        <item name="colorControlNormal">@color/secondary_text_default_material_light</item>
         <item name="colorControlActivated">?colorAccent</item>
         <item name="colorControlHighlight">@color/ripple_material_dark</item>
         <item name="colorButtonNormal">@color/button_material_dark</item>
@@ -1390,7 +1390,7 @@
         <item name="toolbarStyle">@style/Widget.AppCompat.Toolbar</item>
         <item name="toolbarNavigationButtonStyle">@style/Widget.AppCompat.Toolbar.Button.Navigation</item>
         <item name="popupMenuStyle">@style/Widget.AppCompat.Light.PopupMenu</item>
-        <item name="editTextColor">?android:textColorPrimary</item>
+        <item name="editTextColor">@color/primary_text_default_material_light</item>
         <item name="editTextBackground">@drawable/abc_edit_text_material</item>
         <item name="textAppearanceSearchResultTitle">@style/TextAppearance.AppCompat.SearchResult.Title</item>
         <item name="textAppearanceSearchResultSubtitle">@style/TextAppearance.AppCompat.SearchResult.Subtitle</item>
@@ -1412,7 +1412,7 @@
         <item name="colorPrimary">@color/primary_material_light</item>
         <item name="colorPrimaryDark">@color/primary_dark_material_light</item>
         <item name="colorAccent">@color/accent_material_light</item>
-        <item name="colorControlNormal">?android:textColorSecondary</item>
+        <item name="colorControlNormal">@color/secondary_text_default_material_light</item>
         <item name="colorControlActivated">?colorAccent</item>
         <item name="colorControlHighlight">@color/ripple_material_light</item>
         <item name="colorButtonNormal">@color/button_material_light</item>
@@ -1552,7 +1552,7 @@
         <item name="android:textColorPrimaryInverseDisableOnly">@color/abc_primary_text_disable_only_material_dark</item>
         <item name="android:colorBackgroundCacheHint">@color/abc_background_cache_hint_selector_material_light</item>
         <item name="isLightTheme">true</item>
-        <item name="colorControlNormal">?android:textColorSecondary</item>
+        <item name="colorControlNormal">@color/secondary_text_default_material_light</item>
         <item name="colorControlHighlight">@color/ripple_material_light</item>
         <item name="colorButtonNormal">@color/button_material_light</item>
         <item name="colorSwitchThumbNormal">@color/switch_thumb_material_light</item>
@@ -1575,18 +1575,18 @@
         <item name="android:textColorTertiaryInverse">@color/abc_secondary_text_material_light</item>
         <item name="android:colorBackgroundCacheHint">@color/abc_background_cache_hint_selector_material_dark</item>
         <item name="isLightTheme">false</item>
-        <item name="colorControlNormal">?android:textColorSecondary</item>
+        <item name="colorControlNormal">@color/secondary_text_default_material_light</item>
         <item name="colorControlHighlight">@color/ripple_material_dark</item>
         <item name="colorButtonNormal">@color/button_material_dark</item>
         <item name="colorSwitchThumbNormal">@color/switch_thumb_material_dark</item>
     </style>
     <style name="Base.ThemeOverlay.AppCompat.ActionBar" parent="@style/Base.ThemeOverlay.AppCompat">
         <item name="searchViewStyle">@style/Widget.AppCompat.SearchView.ActionBar</item>
-        <item name="colorControlNormal">?android:textColorPrimary</item>
+        <item name="colorControlNormal">@color/primary_text_default_material_light</item>
     </style>
     <style name="Base.ThemeOverlay.AppCompat.Dark.ActionBar" parent="@style/Base.ThemeOverlay.AppCompat.Dark">
         <item name="searchViewStyle">@style/Widget.AppCompat.SearchView.ActionBar</item>
-        <item name="colorControlNormal">?android:textColorPrimary</item>
+        <item name="colorControlNormal">@color/primary_text_default_material_light</item>
     </style>
     <style name="AccountsSwitcher" />
     <style name="AccountsSwitcher.AccountDetailsAvatarStyle" parent="@style/AccountsSwitcher">
@@ -1660,7 +1660,7 @@
     </style>
     <style name="EsActionBar.Title" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
         <item name="android:textSize">@dimen/header_text_size</item>
-        <item name="android:textColor">@color/quantum_white_100</item>
+        <item name="android:textColor">@color/quantum_white_text</item>
         <item name="android:background">#00000000</item>
     </style>
     <style name="drawerArrowToggle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
@@ -1793,7 +1793,7 @@
     </style>
     <style name="RealTimeChat.UnhideButton" parent="@style/RealTimeChat.UnblockButton" />
     <style name="TextShadowLight">
-        <item name="android:textColor">@color/quantum_white_100</item>
+        <item name="android:textColor">@color/quantum_white_text</item>
         <item name="android:shadowColor">@color/text_shadow_color_light</item>
         <item name="android:shadowDx">1.0</item>
         <item name="android:shadowDy">2.0</item>
@@ -1848,7 +1848,7 @@
     <style name="RealTimeChat.ConversationList.TextBadge" parent="@style/Theme.EmeraldSea">
         <item name="android:textAppearance">?android:textAppearanceSmall</item>
         <item name="android:textSize">12.0sp</item>
-        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColor">@color/quantum_white_text</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -1864,7 +1864,7 @@
     <style name="RealTimeChat.ConversationHeader.ConversationName" parent="@style/Theme.EmeraldSea">
         <item name="android:textAppearance">?android:textAppearanceSmall</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">#ff000000</item>
+        <item name="android:textColor">@color/primary_text_default_material_light</item>
         <item name="android:ellipsize">end</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:singleLine">true</item>
@@ -1872,7 +1872,7 @@
     <style name="RealTimeChat.ParticipantHeader.ParticipantCount" parent="@style/Theme.EmeraldSea">
         <item name="android:textAppearance">?android:textAppearanceSmall</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">#ff000000</item>
+        <item name="android:textColor">@color/primary_text_default_material_light</item>
         <item name="android:ellipsize">end</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:singleLine">true</item>
@@ -1881,7 +1881,7 @@
         <item name="android:textAppearance">?android:textAppearanceSmall</item>
         <item name="android:textSize">14.0sp</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">#ff303030</item>
+        <item name="android:textColor">@color/compose_message_view_text_color</item>
         <item name="android:ellipsize">end</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:singleLine">true</item>
@@ -1937,7 +1937,7 @@
     </style>
     <style name="AttachmentHandler.Name" parent="@style/Theme.EmeraldSea">
         <item name="android:textSize">16.0sp</item>
-        <item name="android:textColor">@color/quantum_white_100</item>
+        <item name="android:textColor">@color/quantum_white_text</item>
         <item name="android:gravity">bottom</item>
         <item name="android:background">@drawable/attachment_name_gradient</item>
         <item name="android:padding">15.0dip</item>
@@ -1991,7 +1991,7 @@
     </style>
     <style name="ProfileItemLabel">
         <item name="android:textSize">12.0sp</item>
-        <item name="android:textColor">#ff999999</item>
+        <item name="android:textColor">@color/dialpad_calling_rates_text_color</item>
         <item name="android:ellipsize">marquee</item>
         <item name="android:singleLine">true</item>
     </style>
@@ -2028,12 +2028,12 @@
     </style>
     <style name="HangoutTitleText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
         <item name="android:textSize">22.0sp</item>
-        <item name="android:textColor">@color/quantum_white_100</item>
+        <item name="android:textColor">@color/quantum_white_text</item>
         <item name="android:fontFamily">sans-serif-light</item>
     </style>
     <style name="HangoutSubtitleText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
         <item name="android:textSize">14.0sp</item>
-        <item name="android:textColor">@color/quantum_white_100</item>
+        <item name="android:textColor">@color/quantum_white_text</item>
         <item name="android:fontFamily">sans-serif-light</item>
     </style>
     <style name="Theme.Hangout.IncomingRing.ButtonBar" parent="@android:style/ButtonBar" />
@@ -2269,7 +2269,7 @@
     <style name="Theme.Hangouts.Settings" parent="@style/Theme.AppCompat.Light.DarkActionBar">
         <item name="android:textColorPrimary">@color/text_color_primary_settings</item>
         <item name="android:textColorSecondary">@color/text_color_secondary_settings</item>
-        <item name="android:windowBackground">@color/quantum_white_100</item>
+        <item name="android:windowBackground">@color/default_bg</item>
         <item name="android:dividerHeight">@dimen/divider_height_settings</item>
         <item name="android:listDivider">@drawable/list_divider_settings</item>
         <item name="android:actionBarStyle">@style/Hangout.Settings.ActionBar</item>
@@ -2335,4 +2335,7 @@
         <item name="android:actionBarStyle">@style/ContentConsumptionActionBar</item>
         <item name="android:windowActionBarOverlay">true</item>
     </style>
+    <style name="TextAppearance.Medium" parent="@android:style/TextAppearance.Medium.Inverse" />
+    <style name="TextAppearance.Small" parent="@android:style/TextAppearance.Small.Inverse" />
+    <style name="Themeable.Hangouts" parent="@android:style/Theme.Holo.Light.Dialog" />
 </resources>

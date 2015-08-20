@@ -6162,6 +6162,9 @@
     <public type="style" name="Theme.Hangout" id="0x7f0b0225" />
     <public type="style" name="Theme.Hangout.IncomingRing" id="0x7f0b0226" />
     <public type="style" name="Theme.BabelPhotoView" id="0x7f0b0227" />
+    <public type="style" name="TextAppearance.Medium" id="0x7f0b0228" />
+    <public type="style" name="TextAppearance.Small" id="0x7f0b0229" />
+    <public type="style" name="Themeable.Hangouts" id="0x7f0b022a" />
     <public type="style" name="SystemMessageListItemViewStyle" id="0x7f0b021a" />
     <public type="style" name="Platform.V11.AppCompat" id="0x7f0b018f" />
     <public type="style" name="Platform.V11.AppCompat.Light" id="0x7f0b0190" />
@@ -7688,6 +7691,7 @@
     <public type="color" name="common_signin_btn_text_light" id="0x7f0d0290" />
     <public type="color" name="switch_thumb_material_dark" id="0x7f0d0291" />
     <public type="color" name="switch_thumb_material_light" id="0x7f0d0292" />
+    <public type="color" name="quantum_fab_color" id="0x7f0d0293" />
     <public type="array" name="feedback_call_issues" id="0x7f0e0000" />
     <public type="array" name="feedback_audio_issues" id="0x7f0e0001" />
     <public type="array" name="notification_reply_choices" id="0x7f0e0002" />
